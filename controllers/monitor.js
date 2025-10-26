@@ -2,6 +2,7 @@ const { exec } = require("child_process");
 const fs = require("fs");
 
 const backRefresh = async (req, res) => {
+        console.log('back refresh executing');
         const scriptPath = "./scripts/back_refresh.sh";
         const logFilePath = "../back_refresh.log";
 

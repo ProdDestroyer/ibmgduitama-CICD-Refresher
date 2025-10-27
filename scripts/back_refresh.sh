@@ -8,8 +8,8 @@ set -e  # Stop if any command fails
 # Config
 TARGET_DIRECTORY="/home/ubuntu/ibmgduitama/back"
 PROJECT_DIR="$TARGET_DIRECTORY/ibmgbackend"
-SYSTEMD_SERVICE="myapp.service"
-REPO_URL="git@github.com:ProdDestroyer/ibmgbackend.git"
+SYSTEMD_SERVICE="ibmgduitama.service"
+REPO_URL="git@github.com:ProdDestroyer/ibmgbackend.git" 
 
 echo "🚀 Starting backend deployment..."
 

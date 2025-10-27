@@ -2,10 +2,6 @@
 # ==============================================
 # GitHub Webhook Auto-Deploy Script (Spring Boot)
 # ==============================================
-set -e
-set -a
-source /etc/secrets/mysql.env
-set +a
 
 set -e  # Stop if any command fails
 
